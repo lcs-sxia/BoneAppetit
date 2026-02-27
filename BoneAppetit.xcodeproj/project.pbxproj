@@ -11,6 +11,9 @@
 		357CE6E72F51D8970060901C /* BoneAppetitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6E32F51D8970060901C /* BoneAppetitApp.swift */; };
 		357CE6E82F51D8970060901C /* FeedingHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6E42F51D8970060901C /* FeedingHistoryView.swift */; };
 		357CE6F12F51DFD40060901C /* FeedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6F02F51DFD40060901C /* FeedingView.swift */; };
+		357CE6F32F51E1FD0060901C /* PlannedFeedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6F22F51E1FD0060901C /* PlannedFeedingView.swift */; };
+		357CE6F52F51E4290060901C /* FeedingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6F42F51E4290060901C /* FeedingPlan.swift */; };
+		357CE6F92F51E74E0060901C /* Cohorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6F82F51E74E0060901C /* Cohorts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		357CE6E32F51D8970060901C /* BoneAppetitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneAppetitApp.swift; sourceTree = "<group>"; };
 		357CE6E42F51D8970060901C /* FeedingHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingHistoryView.swift; sourceTree = "<group>"; };
 		357CE6F02F51DFD40060901C /* FeedingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingView.swift; sourceTree = "<group>"; };
+		357CE6F22F51E1FD0060901C /* PlannedFeedingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedFeedingView.swift; sourceTree = "<group>"; };
+		357CE6F42F51E4290060901C /* FeedingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingPlan.swift; sourceTree = "<group>"; };
+		357CE6F82F51E74E0060901C /* Cohorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cohorts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 			children = (
 				357CE6E42F51D8970060901C /* FeedingHistoryView.swift */,
 				357CE6F02F51DFD40060901C /* FeedingView.swift */,
+				357CE6F22F51E1FD0060901C /* PlannedFeedingView.swift */,
+				357CE6F42F51E4290060901C /* FeedingPlan.swift */,
+				357CE6F82F51E74E0060901C /* Cohorts.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 			files = (
 				357CE6F12F51DFD40060901C /* FeedingView.swift in Sources */,
 				357CE6E72F51D8970060901C /* BoneAppetitApp.swift in Sources */,
+				357CE6F92F51E74E0060901C /* Cohorts.swift in Sources */,
+				357CE6F32F51E1FD0060901C /* PlannedFeedingView.swift in Sources */,
+				357CE6F52F51E4290060901C /* FeedingPlan.swift in Sources */,
 				357CE6E82F51D8970060901C /* FeedingHistoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
