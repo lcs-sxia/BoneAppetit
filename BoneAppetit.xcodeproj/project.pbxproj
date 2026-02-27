@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		357CE6E62F51D8970060901C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357CE6E22F51D8970060901C /* Assets.xcassets */; };
+		357CE6E72F51D8970060901C /* BoneAppetitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6E32F51D8970060901C /* BoneAppetitApp.swift */; };
+		357CE6E82F51D8970060901C /* FeedingHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6E42F51D8970060901C /* FeedingHistoryView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		357CE6D42F51D8680060901C /* BoneAppetit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoneAppetit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		357CE6E22F51D8970060901C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		357CE6E32F51D8970060901C /* BoneAppetitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneAppetitApp.swift; sourceTree = "<group>"; };
+		357CE6E42F51D8970060901C /* FeedingHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		357CE6D62F51D8680060901C /* BoneAppetit */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BoneAppetit;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		357CE6D12F51D8680060901C /* Frameworks */ = {
@@ -32,7 +33,7 @@
 		357CE6CB2F51D8680060901C = {
 			isa = PBXGroup;
 			children = (
-				357CE6D62F51D8680060901C /* BoneAppetit */,
+				357CE6E52F51D8970060901C /* BoneAppetit */,
 				357CE6D52F51D8680060901C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,24 @@
 				357CE6D42F51D8680060901C /* BoneAppetit.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		357CE6E52F51D8970060901C /* BoneAppetit */ = {
+			isa = PBXGroup;
+			children = (
+				357CE6E92F51D8A60060901C /* Views */,
+				357CE6E22F51D8970060901C /* Assets.xcassets */,
+				357CE6E32F51D8970060901C /* BoneAppetitApp.swift */,
+			);
+			path = BoneAppetit;
+			sourceTree = "<group>";
+		};
+		357CE6E92F51D8A60060901C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				357CE6E42F51D8970060901C /* FeedingHistoryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +78,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				357CE6D62F51D8680060901C /* BoneAppetit */,
 			);
 			name = BoneAppetit;
 			packageProductDependencies = (
@@ -109,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357CE6E62F51D8970060901C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357CE6E72F51D8970060901C /* BoneAppetitApp.swift in Sources */,
+				357CE6E82F51D8970060901C /* FeedingHistoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
