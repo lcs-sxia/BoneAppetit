@@ -10,6 +10,7 @@
 		357CE6E62F51D8970060901C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357CE6E22F51D8970060901C /* Assets.xcassets */; };
 		357CE6E72F51D8970060901C /* BoneAppetitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6E32F51D8970060901C /* BoneAppetitApp.swift */; };
 		357CE6E82F51D8970060901C /* FeedingHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6E42F51D8970060901C /* FeedingHistoryView.swift */; };
+		357CE6F12F51DFD40060901C /* FeedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357CE6F02F51DFD40060901C /* FeedingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		357CE6E22F51D8970060901C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357CE6E32F51D8970060901C /* BoneAppetitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoneAppetitApp.swift; sourceTree = "<group>"; };
 		357CE6E42F51D8970060901C /* FeedingHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingHistoryView.swift; sourceTree = "<group>"; };
+		357CE6F02F51DFD40060901C /* FeedingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				357CE6E42F51D8970060901C /* FeedingHistoryView.swift */,
+				357CE6F02F51DFD40060901C /* FeedingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357CE6F12F51DFD40060901C /* FeedingView.swift in Sources */,
 				357CE6E72F51D8970060901C /* BoneAppetitApp.swift in Sources */,
 				357CE6E82F51D8970060901C /* FeedingHistoryView.swift in Sources */,
 			);
