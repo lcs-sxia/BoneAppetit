@@ -8,21 +8,27 @@
 import SwiftUI
 
 struct FeedingHistoryView: View {
+    @State private var selection = "History"
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack {
+                Picker("Current Selection", selection: $selection){
+                    Text("Meals").tag("Meals")
+                    Text("Planned Feeding").tag("Planned Feeding")
+                    Text("History").tag("History")
+                }
+                .pickerStyle(.segmented)
+                Spacer()
         }
-        .padding()
-        .navigationTitle("Piper")
-        .toolbar{
-            ToolbarItem(placement: .topBarLeading){
-                Button{
-                    
-                } label:{
-                    Text("\(Image(systemName: "chevron.backward")) Pets")
+            .padding()
+            .navigationTitle("Piper")
+            .toolbar{
+                ToolbarItem(placement: .topBarLeading){
+                    Button{
+                        
+                    } label:{
+                        Text("\(Image(systemName: "chevron.backward")) Pets")
+                    }
                 }
             }
         }
